@@ -23,7 +23,7 @@ def load_model():
     global model
     model = ResNet(34, 2, 3)
     #model = resnet50(pretrained=False)
-    model_path = "/home/insideout/anaconda3/programs/mygit/Business-Card-Detector/checkpoint/business_cards/resnet-34.t7"
+    model_path = "./checkpoint/business_cards/resnet-34.t7"
     checkpoint = torch.load(model_path)
     #model.load_state_dict(checkpoint)
     model = checkpoint['net']
