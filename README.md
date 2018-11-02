@@ -23,12 +23,17 @@ conda activate businesscarddetect
 pip install -r requirements.txt
 ```
 
-5. Run the app
+5. Install torch-cpu
+```
+conda install pytorch-cpu torchvision-cpu -c pytorch
+```
+
+6. Run the app
 ```
 python app.py
 ```
 
-6. Make a request
+7. Make a request
 ```
 curl -X POST -F image=@path-to-image.jpg 'http://localhost:5000/predict'
 ```
