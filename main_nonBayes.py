@@ -79,7 +79,7 @@ def getNetwork(args):
         net = ResNet(args.depth, num_classes,inputs)
         file_name = 'resnet-' + str(args.depth)
     else:
-        print('Error : Network should be either [LeNet / AlexNet /SqueezeNet/ ResNet / Wide_ResNet')
+        print('Error : Network should be either [AlexNet / ResNet ')
         sys.exit(0)
 
     return net, file_name
