@@ -23,7 +23,7 @@ def load_model():
     global model
     model = ResNet(34, 2, 3)
     #model = resnet50(pretrained=False)
-    model_path = "./checkpoint/business_cards/resnet-18.t7"
+    model_path = "./checkpoint/business_cards/resnet-34.t7"
     checkpoint = torch.load(model_path,  map_location='cpu')
     #model.load_state_dict(checkpoint)
     model = checkpoint['net']
