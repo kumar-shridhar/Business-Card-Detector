@@ -62,7 +62,7 @@ def predict():
             image = Image.open(io.BytesIO(image))
 
             # Preprocessing the image
-            image = prepare_image(image, target_size=(32, 32))
+            image = prepare_image(image, target_size=(224, 224))
 
             # Get prediction results
             preds = F.softmax(model(image), dim=1)
