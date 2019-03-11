@@ -1,5 +1,5 @@
-# Business-Card-Detector
-Detect if an image is a business card or not!
+# Pills-Detector
+Detect if an image is a pill or not!
 
 
 ### Steps:
