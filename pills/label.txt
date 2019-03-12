@@ -1,4 +1,4 @@
-{0: 'Viscotears',
+{0: 'A Swede',
  1: 'Panodil',
  2: 'Asthma Inhaler',
- 3: 'A Swede'}
+ 3: 'Viscotears'}
